@@ -1,0 +1,33 @@
+# ===== Python =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== MkDocs =====
+# Build output folder
+site/
+
+# ===== VS Code =====
+.vscode/
+.history/
+.code-workspace
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Environment / config files =====
+.env
+*.env
+*.local
