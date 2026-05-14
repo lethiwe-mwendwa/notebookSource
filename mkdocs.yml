@@ -1,0 +1,53 @@
+site_name: Lethiwe's Notebook
+
+
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+  - glightbox
+
+nav:
+  - Home: index.md
+
+  - Software Engineering:
+      - Overview: Software Engineering/index.md
+
+      - Vertex Cortex:
+          - Overview: Software Engineering/Vertex Cortex/index.md
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.arithmatex:
+      generic: true

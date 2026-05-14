@@ -1,0 +1,42 @@
+
+
+
+body {
+    font-family: "JetBrains Mono", "Fira Code", "Consolas", "Liberation Mono", "Courier New", monospace;
+}
+
+/* old stuff: */
+
+
+/* Add vertical space between ToC links */
+#terminal-mkdocs-side-panel .terminal-mkdocs-side-nav-li {
+  margin-bottom: 10px;
+}
+
+/* Optional: improve line height for readability */
+#terminal-mkdocs-side-panel .terminal-mkdocs-side-nav-li a {
+  line-height: 1.6;
+  display: inline-block;
+}
+
+#terminal-mkdocs-side-panel .terminal-mkdocs-side-nav-li:first-child {
+  margin-top: 12px;
+}
+
+/* Apply to all list items inside the right-side aside panel */
+aside li {
+  margin-bottom: 20px;
+}
+
+/* Optional: Add indentation for nested lists */
+aside ul ul li {
+  margin-left: 10px;
+}
+
+/* Improve readability of links inside the aside */
+aside a {
+  line-height: 1.6;
+  display: inline-block;
+}
+
+
