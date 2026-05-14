@@ -1,4 +1,11 @@
 ---
+hide:
+  - navigation
+  - toc
+
+---
+
+---
 
 **Who am I?**
 
@@ -11,6 +18,12 @@ Developer's Society.
 - <a href="https://lethiwe-mwendwa.github.io/" target="_blank" rel="noopener noreferrer">Digital Card</a>
 
 ---
+
+<style>
+.md-main__inner{
+  max-width: 900px; 
+}
+</style>
 
 <!--
 **Send me an email**

@@ -9,11 +9,17 @@ theme:
     primary: black
     accent: indigo
 
+  icon:
+    repo: fontawesome/brands/git-alt 
+
   features:
     - navigation.indexes
+    - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
+    - search.suggest
+    - search.highlight
     - search.highlight
     - content.code.copy
     - toc.follow
@@ -23,14 +29,9 @@ plugins:
   - tags
   - glightbox
 
-nav:
-  - Home: index.md
+repo_url: https://github.com/lethiwe-mwendwa/notebookSource
+repo_name: lethiwe-mwendwa/notebook
 
-  - Software Engineering:
-      - Overview: Software Engineering/index.md
-
-      - Vertex Cortex:
-          - Overview: Software Engineering/Vertex Cortex/index.md
 
 extra:
   generator: false
@@ -42,6 +43,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
+  - attr_list
   - toc:
       permalink: true
 

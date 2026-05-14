@@ -1,5 +1,10 @@
 ---
+hide:
+  - navigation
+  - toc
 
+---
+---
 **Welcome**
 
 This website is a quiet space: part lab, part journal; where I document what I learn, question and build.
@@ -15,3 +20,9 @@ range of mediums.
 This website was created using [MKDocs](https://www.mkdocs.org/), show them some love!
 
 ---
+
+<style>
+.md-main__inner{
+  max-width: 900px; 
+}
+</style>
