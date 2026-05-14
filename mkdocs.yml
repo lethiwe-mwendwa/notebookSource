@@ -1,0 +1,55 @@
+site_name: Lethiwe's Notebook
+
+
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+
+  icon:
+    repo: fontawesome/brands/git-alt 
+
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+  - glightbox
+
+repo_url: https://github.com/lethiwe-mwendwa/notebookSource
+repo_name: lethiwe-mwendwa/notebook
+
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.arithmatex:
+      generic: true
