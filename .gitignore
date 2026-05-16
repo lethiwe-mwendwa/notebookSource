@@ -31,3 +31,6 @@ desktop.ini
 .env
 *.env
 *.local
+
+#Video assets
+.mp4
